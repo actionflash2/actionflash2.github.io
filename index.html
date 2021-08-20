@@ -1,18 +1,146 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Tirendaz Akademi</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel = "icon" href =  "images/icon.jpg"
+        type = "image/x-icon">
+	</head>
+	<body class="is-preload">
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
+		<!-- Header -->
+			<section id="header">
+				<header>
+					<span class="image avatar"><img src="images/TA.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Tirendaz Akademi</a></h1>
+					<p> Yapay Zeka, Veri Bilimi, Makine Öğrenmesi, Derin Öğrenme, Programlama, Biyoinformatik.</p>
+				</header>
+				<nav id="nav">
+					<ul>
+						<li><a href="#one" class="active">Hakkımızda</a></li>
+						<li><a href="#two">Hobilerimiz</a></li>
+						<li><a href="#three">Eğitimlerimiz</a></li>
+					</ul>
+				</nav>
+				<footer>
+					<ul class="icons">
+						<li><a href="https://youtube.com/c/tirendazakademi"  target="_blank" class="icon brands fa fa-youtube"><span class="label">YouTube</span></a></li>
+						<li><a href="https://twitter.com/tirendazacademy" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+						<li><a href="https://www.linkedin.com/in/tirendaz-academy" class="icon brands fa-linkedin" target="_blank"><span class="label">Linkedin</span></a></li>
+						<li><a href="https://github.com/tirendazacademy" class="icon brands fa-github" target="_blank"><span class="label" >Github</span></a></li>
+						<li><a href="https://www.kaggle.com/tirendazacademy" class="icon brands fa-kaggle" target="_blank"><span class="label" >Kaggle</span></a></li>
+						<li><a href="mailto: tirendazcontact@gmail.com" class="icon solid fa-envelope" target="_blank"><span class="label" >Email</span></a></li>
+						<li><a href="https://open.spotify.com/show/5F11QvqjtA8SggLIfQ40q7?nd=1"  target="_blank" class="icon brands fa fa-spotify"><span class="label">Spotify</span></a></li>
+						<li><a href="https://medium.com/@tirendazacademy"  target="_blank" class="icon brands fa fa-medium"><span class="label">Medium</span></a></li>
+					</ul>
+				</footer>
+			</section>
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+				<!-- Main -->
+					<div id="main">
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
-</div>
+						<!-- One -->
+							<section id="one">
+								<div class="image main" data-position="center">
+									<img src="https://images.unsplash.com/photo-1533854775446-95c4609da544?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" />
+								</div>
+								<div class="container">
+									<header class="major">
+										<h3>Hakkımızda</h3>
+									</header>
+									<p> Herkese merhaba, <br> Tirendaz Akademi, <a href="https://www.udemy.com/user/tirendaz-akademi-2/">Udemy</a> ve <a href="https://www.youtube.com/c/tirendazakademi">YouTube</a> gibi platformlarda online eğitimler verir. Tirendaz Akademi, yapay zeka, veri bilimi, makine öğrenmesi, derin öğrenme, programlama, oyun geliştirme, web geliştirme ve biyoinformatik gibi alanlarda içerikler üretir ve danışmanlık yapar.
+									</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two">
+								<div class="container">
+									<h3>Hobilerimiz</h3>
+									<ul class="feature-icons">
+										<li class="icon solid fa-code">Kod yazma</li>
+										<li class="icon solid fa-film">Film izleme</li>
+										<li class="icon solid fa-book">Kitap okuma</li>
+										<li class="icon solid fa-coffee">Teknoloji </li>
+										<li class="icon solid fa-music">Müzik dinleme</li>
+										<li class="icon solid fa-users">Yapay zeka etkinliklerine katılma</li>
+									</ul>
+								</div>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
+								<div class="container">
+									<h3>Eğitimlerimiz</h3>
+									<p>Verdiğimiz eğitimlerden bazıları:</p>
+									<div class="features">
+										<article>
+											<a class="image"><img src="https://images.unsplash.com/photo-1526378722484-bd91ca387e72?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=891&q=80" alt="" /></a>
+											<div class="inner">
+												<h4><a href="https://youtube.com/c/tirendazakademi">Yapay Zeka</a> </h4>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="https://images.unsplash.com/photo-1599658880436-c61792e70672?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" /></a>
+											<div class="inner">
+												<h4><a href="https://www.youtube.com/watch?v=DQAiWukoOgI&list=PLfMRLSpipmftNAJQjpSWLEPAC6UMf_3iE">Veri Bilimi</a> </h4>
+											</div>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="https://images.unsplash.com/photo-1591453089816-0fbb971b454c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1050&q=80" alt="" /></a>
+											<div class="inner">
+												<h4><a href="https://www.youtube.com/watch?v=7p-an2KTO5o&list=PLfMRLSpipmfuumcvO3fObVAUpSqYAcZmF">Makine Öğrenmesi</a> </h4>
+											</div>
+										</article>
+										<article>
+											<a class="image"><img src="https://images.unsplash.com/photo-1532619675605-1ede6c2ed2b0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" /></a>
+											<div class="inner">
+												<h4><a href="https://www.youtube.com/watch?v=pdpm8wHZkIs&list=PLfMRLSpipmftdjM4l9u7adgDZGDM7vNLE">Derin Öğrenme</a> </h4>
+											</div>
+										</article>
+										<article>
+											<a class="image"><img src="https://images.unsplash.com/photo-1613068687893-5e85b4638b56?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" /></a>
+											<div class="inner">
+												<h4><a href="https://www.youtube.com/playlist?list=PLfMRLSpipmfvXkTUYk8hCY0Ql8B0cHlpt">Programlama</a> </h4>
+											</div>
+										</article>
+										<article>
+											<a class="image"><img src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" /></a>
+											<div class="inner">
+												<h4><a href="https://www.youtube.com/watch?v=LiiSsTuR6Xk&t=4s">Web Geliştirme</a> </h4>
+											</div>
+										</article>
+										<article>
+											<a class="image"><img src="https://images.unsplash.com/photo-1534423861386-85a16f5d13fd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" /></a>
+											<div class="inner">
+												<h4><a href="https://www.youtube.com/watch?v=n5ZflJVTXXw&list=PLfMRLSpipmfsFB4jMwbVlHh8kLRXjFdaT">Oyun Geliştirme</a> </h4>
+											</div>
+										</article>
+										<article>
+											<a class="image"><img src="https://images.unsplash.com/photo-1575503802870-45de6a6217c8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80" alt="" /></a>
+											<div class="inner">
+												<h4><a href="https://tirendazakademi.medium.com/bi%CC%87yoenformati%CC%87k-i%CC%87%C3%A7i%CC%87n-molek%C3%BCler-bi%CC%87yoloji%CC%87ye-gi%CC%87ri%CC%87%C5%9F-ec2ec18d99ec?source=user_profile---------18----------------------------">Biyoinformatik</a> </h4>
+											</div>
+										</article>
+									</div>
+								</div>
+							</section>
+					</div>
+
+			</div>
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
